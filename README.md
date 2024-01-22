@@ -14,3 +14,6 @@ Owner is not responsible for any intrusion by the user !!
 ## *Vision*
 
 In a world where resources for custom shellcodes are scarce and often outdated, SimpleShellcodes emerges as a fresh and straightforward solution. Fueled by the belief that simplicity is key, this repository aims to provide a rich collection of custom shellcodes along with easy-to-understand source code.
+
+
+
