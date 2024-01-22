@@ -17,8 +17,7 @@ Owner is not responsible for any intrusion by the user !!
 
 ## **Vision**
 
-In a world where resources for custom shellcodes are scarce and often outdated. Fueled by the belief that simplicity is key, this repository aims to provide a rich collection of custom shellcodes along with easy-to-understand source code.
-
+I observed that many shellcodes were created long time ago, I decided to write some custom ones. The old shellcodes will also work. But I think, with time the new ones should also be developed !!
 
 ![warning-cyber-attack](https://github.com/vatsalgupta67/Shellcodes/assets/71017420/d69b9910-b111-4021-b65b-ac83971e833e)
 
