@@ -1,14 +1,23 @@
 # Shellcodes
 A repository of custom Linux shellcodes, with a nod to the future inclusion of Windows shellcodes.
 
+
+
 ## Note
 
 Owner is not responsible for any intrusion by the user !!
 
 ### - Credits of these images goes to their respective owners - 
+
+![cyber](https://github.com/vatsalgupta67/Shellcodes/assets/71017420/0fabaef0-ea69-40c0-b8b6-2e9a80fd9179)
+
+
 ![shell](https://github.com/vatsalgupta67/Shellcodes/assets/71017420/f22a619d-c75c-4645-a4f4-8b657a12ae8d)
 
 # ***Made with :heart: in :india: !!!***	
+
+![mon-pic](https://github.com/vatsalgupta67/Shellcodes/assets/71017420/af4d231a-5f32-48dc-a665-3baabc29b1f8)
+
 
 
 ## **Vision**
@@ -17,3 +26,8 @@ In a world where resources for custom shellcodes are scarce and often outdated, 
 
 
 ![warning-cyber-attack](https://github.com/vatsalgupta67/Shellcodes/assets/71017420/d69b9910-b111-4021-b65b-ac83971e833e)
+
+![Capture](https://github.com/vatsalgupta67/Shellcodes/assets/71017420/af1672c1-5eb6-4f4a-876a-368e3fce30bd)
+
+
+
