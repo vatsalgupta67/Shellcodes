@@ -7,7 +7,63 @@ ________________________________________________________________________________
 
 # Assembly Program 
 
+section .data
+   
+ 
+section .bss
+    
+ 
+section .text
+    global _start
+_start:
 
+; open
+    push 2
+    pop rax
+    push 0x64                                       
+    mov r8,0x77737361702F6374             
+    push r8
+    mov r8w,0x652f
+    push r8w                               
+    mov rdi,rsp                  
+    xor rsi,rsi
+    syscall
+
+     mov r10,rax
+     
+  ; read   
+   
+    mov rdi, r10
+    xor rax,rax
+    sub sp,0xfb8
+    lea rsi,[rsp]
+    lea r8,[rsp]
+    mov dx, 0xfb8
+    syscall
+    
+ ; write
+
+    
+    push 1
+    pop rdi
+    push 1
+    pop rax
+    lea rsi,[r8]
+    mov dx,0xfb8
+    syscall
+    
+    ;close
+
+    push 3
+    pop rax
+    mov rdi,r10
+    syscall
+
+    ;exit
+
+    mov al,60
+    xor rdi,rdi
+    syscall               
 
 
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________
