@@ -1,6 +1,8 @@
 # Shellcodes
 A repository of custom Null-Truncated Linux shellcodes, with a nod to the future inclusion of Windows shellcodes.
 
+All these shellcodes of Linux been tested on Debian Kali 2023.4.
+
 # ***Made with :heart: in :india: !!!***	
 
 
